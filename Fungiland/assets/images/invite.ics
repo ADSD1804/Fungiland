@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:SA Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=DANIELA QUINTANA GUEVARA:mailto:aprendizseleccion@oncologosdel
+ occidente.co
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=ALEJANDRO 
+ BOLIVAR ARANGO:mailto:alejandro.bolivar@oncologosdeloccidente.co
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=andresdavi
+ d1804@gmail.com:mailto:andresdavid1804@gmail.com
+DESCRIPTION;LANGUAGE=en-US:Buena tarde\n\n\n\nPor favor contar con cámara 
+ y micrófono\n\n\n\nMuchas gracias.\n\n\n\n_______________________________
+ _________________________________________________\nReunión de Microsoft T
+ eams\nÚnase a través de su ordenador\, aplicación móvil o dispositivo 
+ de sala\nHaga clic aquí para unirse a la reunión<https://teams.microsoft
+ .com/l/meetup-join/19%3ameeting_MjZlODJlZTMtNDkzMi00NGI3LWFiMzQtZmZlNmZhND
+ AzMzBl%40thread.v2/0?context=%7b%22Tid%22%3a%22b1c95353-4e8f-45f9-b742-fec
+ c9cf34f40%22%2c%22Oid%22%3a%22aabceb1e-a5f7-4616-8d00-c819e7a9f38f%22%7d>\
+ nID de la reunión: 234 577 673 367\nCódigo de acceso: BWRxGr\nDescargar 
+ Teams<https://www.microsoft.com/en-us/microsoft-teams/download-app> | Unir
+ se en la web<https://www.microsoft.com/microsoft-teams/join-a-meeting>\nIn
+ fórmese<https://aka.ms/JoinTeamsMeeting> | Opciones de reunión<https://t
+ eams.microsoft.com/meetingOptions/?organizerId=aabceb1e-a5f7-4616-8d00-c81
+ 9e7a9f38f&tenantId=b1c95353-4e8f-45f9-b742-fecc9cf34f40&threadId=19_meetin
+ g_MjZlODJlZTMtNDkzMi00NGI3LWFiMzQtZmZlNmZhNDAzMzBl@thread.v2&messageId=0&l
+ anguage=es-ES>\n__________________________________________________________
+ ______________________\n
+UID:040000008200E00074C5B7101A82E00800000000972B3FE9C227DA01000000000000000
+ 01000000078394302D3B68D47B82D77678F058F5D
+SUMMARY;LANGUAGE=en-US:Entrevista selección\, Auxiliar de sistemas-Andrés
+  David Soto Duque
+DTSTART;TZID=SA Pacific Standard Time:20231211T160000
+DTEND;TZID=SA Pacific Standard Time:20231211T162000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20231207T181517Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:1
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:1
+X-MICROSOFT-CDO-OWNERAPPTID:2122066071
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MjZlODJlZTMtNDkzMi00NGI3LWFiMzQtZmZlNmZhNDAzMzBl%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22b1c95353-4e8f-45f9-b742-fecc9cf34f40%22%2c%22O
+ id%22%3a%22aabceb1e-a5f7-4616-8d00-c819e7a9f38f%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/b1c95353-4e8f-45f9-b742-fecc9cf34f40/aabceb1e-a5f7-4616-8d00-c
+ 819e7a9f38f/19_meeting_MjZlODJlZTMtNDkzMi00NGI3LWFiMzQtZmZlNmZhNDAzMzBl@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MjZlODJlZTMtNDkzMi00NGI
+ 3LWFiMzQtZmZlNmZhNDAzMzBl@thread.v2"\,"rid":"0"\,"mid":"0"\,"private":true
+ \,"type":0}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONSOURCE:None
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

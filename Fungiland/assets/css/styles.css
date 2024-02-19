@@ -1,0 +1,187 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.text-welcome {
+    text-align: center;
+}
+
+section {
+    padding: 10px;
+    align-content: center;
+}
+
+section p {
+    text-align: justify;
+}
+
+aside {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu div{
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+h1 {
+    color: #d9534f;
+}
+
+h3, h4 {
+    color: #5bc0de;
+}
+
+li{
+    color: #5bc0de;
+    font-size: 20px;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: larger;
+}
+
+button img {
+    display: block;
+}
+
+.producto img {
+    width: 300px;        
+}
+
+.producto{
+    padding: 10px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+   .news{
+       margin-bottom: 4em;
+   }
+
+   .news h3{
+       font-size: 1.5em;
+   }
+
+   .news img{
+       height: 300px;
+   }
+
+   footer{
+       justify-content: space-between;
+       align-items: center;
+       align-content: center;
+       
+   }
+   .footer-title{
+       margin-right: 3em;
+       margin-top: 0;
+       width: 100%;
+
+   }
+   .footer-content{
+       margin-left: 3em;
+       width: 100%;
+   }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+   .news{
+       padding: 10px;
+       width: 50%;
+   }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+   aside{
+       width: 100%;
+   }
+
+   .aside-title{
+       margin-bottom: 3em;
+   }
+
+   .aside-title h2{
+       margin-bottom: 0;
+       margin-top: 2em;
+   }
+
+   .hr-aside{
+       display: block;
+   }
+
+   main{
+       display: flex;
+   }
+
+}
